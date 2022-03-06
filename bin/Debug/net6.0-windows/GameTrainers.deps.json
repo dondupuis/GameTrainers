@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GameTrainers/1.0.0": {
+        "dependencies": {
+          "Memory.dll.x86": "1.2.23",
+          "ProcessMemoryReader": "1.5.0"
+        },
+        "runtime": {
+          "GameTrainers.dll": {}
+        }
+      },
+      "Memory.dll.x86/1.2.23": {
+        "runtime": {
+          "lib/netstandard2.0/Memory.dll": {
+            "assemblyVersion": "1.2.23.0",
+            "fileVersion": "1.2.23.0"
+          }
+        }
+      },
+      "ProcessMemoryReader/1.5.0": {
+        "runtime": {
+          "lib/ProcessMemoryScanner.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameTrainers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Memory.dll.x86/1.2.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NQmiXYPOhPY2WFd3tPS1WlsfvVVxCHGIlv2IcQz0XbKhmqIddvwZ3V5rYbNuEWTNUpD94co+RG5d29QQbgHMYg==",
+      "path": "memory.dll.x86/1.2.23",
+      "hashPath": "memory.dll.x86.1.2.23.nupkg.sha512"
+    },
+    "ProcessMemoryReader/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MvObATCYjUMOizYaYYBctNtbGucJzGFsLXEqP+1OD6yL0JMk1hPhwIfikJpQ9tq6nPV6g0ZokEqc7gYl6th5iw==",
+      "path": "processmemoryreader/1.5.0",
+      "hashPath": "processmemoryreader.1.5.0.nupkg.sha512"
+    }
+  }
+}
