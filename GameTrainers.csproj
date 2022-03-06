@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="trainers\JDGame-Win64-Shipping\aobscanner.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Memory.dll.x86" Version="1.2.23" />
+    <PackageReference Include="ProcessMemoryReader" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary2">
+      <HintPath>ClassLibrary2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

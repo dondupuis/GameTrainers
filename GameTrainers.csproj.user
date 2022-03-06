@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Trainers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\AssultCube\ac_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\Cristales\Cristales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\DrugDealerSimulator-Win64-Shipping\DrugDealerSimulator-Win64-Shipping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\FarmingSimulator2019Game\FarmingSimulator2019Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\Greak Memories of Azur\Greak Memories of Azur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\JDGame-Win64-Shipping\JDGame-Win64-Shipping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\theHunterCotW_F\theHunterCotW_F.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="trainers\TheInfected-Win64-Shipping\TheInfected-Win64-Shipping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
